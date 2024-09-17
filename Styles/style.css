@@ -1,8 +1,5 @@
 
 
-body {
-
-}
 
 .main_name{
     width: 40%;
@@ -35,12 +32,18 @@ body {
     text-decoration: none;
     color: #000;
 }
-.content{
+.content h1{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-   
+    
+}
+.content p{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     
 }
 .main_contents h3{
@@ -48,17 +51,39 @@ body {
    
 }
 .main_contents{
-    position: relative; 
     float: left;
+    width: 40%;
+    padding: 50px;
+ 
+
 }
 .main_contents span{
     color: red;
+    display: block;
+
 }
 .hero_image{
   
     width: 40%;
-    background-color: aqua;
     float: right;
+    justify-items: right;
+    
+}
+.hero_image img{
+    width: 50%;
+}
 
-
+.hire_button{
+    font-size: 20px;
+    border: 5px;
+    background: #d30404;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    height: 50px;
 }
