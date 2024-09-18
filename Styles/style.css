@@ -191,3 +191,72 @@ footer{
     font-size: 10px;
     margin-top: 30px;
 }
+
+@media only screen and (max-width :600px){
+    .hero_image {
+
+        width: 35%;
+        float: right;
+        justify-items: right;
+        margin-top: 200px;
+
+    
+    }
+    .hire_button {
+        font-size: 10px;
+        border: 5px;
+        background: #d30404;
+        color: #fff;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        padding: 5px;
+        width: 80px;
+        text-align: center;
+        height: 30px;
+    }
+        #dream {
+            display: flex;
+            padding: 10px;
+            padding-right: 0;
+            margin-top: 500px;
+           background-color: rgba(0, 195, 244, 0.5);
+            backdrop-filter: 1px;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: auto;    
+        }
+    .dream_image img {
+        margin-top: 150px;
+    }
+    .dream_des{
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300px;
+        font-style: normal;
+    }
+    #experiences div{
+        padding: 10px;
+        box-shadow: 5px 5px 20px #888888;
+        border-radius: 5px;
+        border-image: gradient;
+        margin-left: 50px;
+        height: 200px;
+    }
+    #experiences h1{
+        color: #d30404;
+        font-size: 15px;
+    }
+    #experiences h3{
+        color: #000000;
+        font-size: 8px;
+    }
+    #experiences p{
+        color: #000000;
+        font-size: 8px;
+    }
+    
+
+   
+}
